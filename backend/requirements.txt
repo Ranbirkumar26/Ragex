@@ -1,0 +1,19 @@
+# backend api
+fastapi>=0.115,<1
+uvicorn[standard]>=0.32,<1
+pydantic>=2.10,<3
+python-dotenv>=1,<2
+
+# data + ml
+pandas>=2.2,<3
+numpy>=2.0,<3
+scikit-learn>=1.5,<2
+httpx>=0.27,<1
+psycopg[binary]>=3.2,<4  # direct Supabase Postgres adapter
+
+# rag
+chromadb>=0.5,<1  # optional local vector store, memory fallback remains available
+
+# tests
+pytest>=8,<9
+ruff>=0.8,<1

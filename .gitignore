@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.pyc
+
+node_modules/
+.next/
+out/
+coverage/
+
+data/chroma/
+data/runtime/
+supabase/.temp/
+backend/.coverage

@@ -1,0 +1,35 @@
+{
+  "decision_id": "dec_001",
+  "occurred_at": "2026-08-22T10:00:00+05:30",
+  "sku_id": "SKU-1001",
+  "channel": "web",
+  "region": "IN-MH",
+  "context": {
+    "inventory": 120,
+    "competitor_price_inr": 1199,
+    "demand_index": 0.72
+  },
+  "proposed_price_inr": 1299,
+  "policy_version": "policy-v1",
+  "model_version": "sim-v1",
+  "trace_id": "trace_001",
+  "source": "simulator",
+  "anomaly_mode": "none",
+  "guardrail": {
+    "status": "pass",
+    "flags": []
+  },
+  "regret": {
+    "status": "scored",
+    "score_inr": 0,
+    "best_price_inr": 1299,
+    "chosen_reward_inr": 4200,
+    "best_reward_inr": 4200,
+    "model_version": "regret-v1"
+  },
+  "explanation": {
+    "status": "grounded",
+    "summary": "",
+    "evidence": []
+  }
+}

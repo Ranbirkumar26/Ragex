@@ -1,0 +1,5 @@
+sku_id,name,category,floor_price_inr,ceiling_price_inr,base_price_inr,unit_cost_inr,channel,region
+SKU-1001,Monsoon Runner Shoes,footwear,899,1899,1299,640,web,IN-MH
+SKU-1002,Daily Brew Coffee,kitchen,349,899,549,210,web,IN-KA
+SKU-1003,Noise Shield Earbuds,electronics,1499,3999,2499,1120,marketplace,IN-DL
+SKU-1004,Smart Desk Lamp,home,799,2299,1399,530,web,IN-TN
